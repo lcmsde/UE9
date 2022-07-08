@@ -72,6 +72,7 @@ public class EVL<T> {
     public void addLast(T e) {
         if (this.isEmpty()) {
             addFirst(e);
+           return;
         }
         Listenelement element = new Listenelement(e);
         last.next = element;

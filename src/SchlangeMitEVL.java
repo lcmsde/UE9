@@ -11,8 +11,8 @@ public class SchlangeMitEVL<T> implements Schlange<T> {
     }
 
 
-    public void remove() {
-        schlange.removeFirst();
+    public T remove() {
+        return(schlange.removeFirst());
     }
 
 
