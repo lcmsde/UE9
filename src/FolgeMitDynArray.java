@@ -26,7 +26,7 @@ public class FolgeMitDynArray<T> implements Folge<T> {
     folge.addLast(e);
     }
 
-    public void remove() {
+    public T remove() {
     throw new UnsupportedOperationException();
     }
 

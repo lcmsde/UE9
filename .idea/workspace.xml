@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8b9ab74-fddc-4a9e-8abc-97e59ac7c262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Folge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FolgeMitDynArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Puffer.java" afterDir="false" />
+    <list default="true" id="d8b9ab74-fddc-4a9e-8abc-97e59ac7c262" name="Changes" comment="sehr guter Code">
+      <change afterPath="$PROJECT_DIR$/src/DynArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UE9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UE9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EVL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SchlangeMitEVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SchlangeMitEVL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FolgeMitDynArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FolgeMitDynArray.java" afterDir="false" />
     </list>
     <list id="d93c481f-fe2f-437f-b96b-39a2169c0186" name="Changes by Patty" comment="">
       <change beforePath="$PROJECT_DIR$/src/GenericUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericUtil.java" afterDir="false" />
@@ -41,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/schro/IdeaProjects/UE9/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/schro/IdeaProjects/UE9/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\schro\IdeaProjects\UE9\src" />
@@ -68,7 +63,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GenericUtilTest.testInsertInto">
+  <component name="RunManager" selected="JUnit.GenericUtilTest">
+    <configuration name="GenericUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UE9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GenericUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericUtilTest.insertInto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UE9" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericUtilTest" />
         <item itemvalue="JUnit.GenericUtilTest.testInsertInto" />
         <item itemvalue="JUnit.GenericUtilTest.insertInto" />
         <item itemvalue="JUnit.GenericUtilTest.printAll" />
@@ -117,8 +122,17 @@
       <updated>1657195966511</updated>
       <workItem from="1657195967719" duration="3241000" />
       <workItem from="1657276973964" duration="674000" />
-      <workItem from="1657281694166" duration="8549000" />
+      <workItem from="1657281694166" duration="9223000" />
+      <workItem from="1657327723328" duration="193000" />
     </task>
+    <task id="LOCAL-00001" summary="sehr guter Code">
+      <created>1657291062581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657291062581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,5 +148,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sehr guter Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="sehr guter Code" />
   </component>
 </project>
